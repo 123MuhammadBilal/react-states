@@ -6,8 +6,27 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.myForm{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content:center;
 }
+.formInputs {
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+}
+
+.userDetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.MuiFormGroup-root.css-dmmspl-MuiFormGroup-root {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
